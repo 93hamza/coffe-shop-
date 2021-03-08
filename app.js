@@ -22,3 +22,26 @@ for (var i = 0;i < numofslice; i++)
     result = result + itemorder;
 }
 document.write(result);
+
+
+alertFunction();
+// function declaration
+
+function alertFunction(){
+    alert("pizzalover");
+}
+ 
+
+// function expression
+
+var ordering = function () {
+    for (var i = 1; i<= 2; i++){
+        document.write('ordernum' + i+  '<br>');
+    }
+}
+ordering();
+
+
+
+
+
