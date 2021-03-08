@@ -34,7 +34,8 @@ function alertFunction(){
 
 // function expression
 
-var ordering = function () {
+var ordering = function () 
+{
     for (var i = 1; i<= 2; i++){
         document.write('ordernum' + i+  '<br>');
     }
