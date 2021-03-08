@@ -1,23 +1,23 @@
-var order = prompt("what do you want coffe or tea?");
+var order = prompt("do you want large or small pizza?");
 
-while(order != 'coffee' && order != 'tea')
+while(order != 'large' && order != 'small')
 {
-    order = prompt("what do you want coffee or tea?");
+    order = prompt("do you want large or small pizza?");
 }
 var itemorder = "";
 
-if(order == "coffee")
+if(order == "large")
 {
-    itemorder = '<img src="coffee.png" />';
+    itemorder = '<img src="pizza2.png" />';
 }
 else
 {
-    itemorder = '<img src="tea.png" />';
+    itemorder = '<img src="pizza1.png" />';
 }
-var numofcups = prompt("how many cup do you want?");
+var numofslice = prompt("how many slice do you want?");
 var result = '';
 
-for (var i = 0;i < numofcups; i++)
+for (var i = 0;i < numofslice; i++)
 {
     result = result + itemorder;
 }
